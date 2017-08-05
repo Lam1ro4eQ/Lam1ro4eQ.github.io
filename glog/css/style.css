@@ -1,0 +1,647 @@
+html, body {
+	overflow-x: hidden;
+}
+@font-face {
+    font-family: 'UbuntuRegular';
+    src: url('fonts/UbuntuRegular.eot');
+    src: url('fonts/UbuntuRegular.eot') format('embedded-opentype'),
+         url('fonts/UbuntuRegular.woff2') format('woff2'),
+         url('fonts/UbuntuRegular.woff') format('woff'),
+         url('fonts/UbuntuRegular.ttf') format('truetype'),
+         url('fonts/UbuntuRegular.svg#UbuntuRegular') format('svg');
+}
+@font-face {
+    font-family: 'UbuntuMedium';
+    src: url('fonts/UbuntuMedium.eot');
+    src: url('fonts/UbuntuMedium.eot') format('embedded-opentype'),
+         url('fonts/UbuntuMedium.woff2') format('woff2'),
+         url('fonts/UbuntuMedium.woff') format('woff'),
+         url('fonts/UbuntuMedium.ttf') format('truetype'),
+         url('fonts/UbuntuMedium.svg#UbuntuMedium') format('svg');
+}
+@font-face {
+    font-family: 'UbuntuBold';
+    src: url('fonts/UbuntuBold.eot');
+    src: url('fonts/UbuntuBold.eot') format('embedded-opentype'),
+         url('fonts/UbuntuBold.woff2') format('woff2'),
+         url('fonts/UbuntuBold.woff') format('woff'),
+         url('fonts/UbuntuBold.ttf') format('truetype'),
+         url('fonts/UbuntuBold.svg#UbuntuBold') format('svg');
+}
+
+
+/*========================== ГЛАВНЫЙ ============================ */
+section#main {
+	padding-top: 50px;
+	background: url(../images/main-bg.jpg) no-repeat top center;
+	height: 800px;
+	background-size: cover;
+}
+.phone h3 {
+	color: #fff;
+	font-family: 'UbuntuMedium';
+}
+.phone p {
+	color: #fff;
+	font-family: 'UbuntuRegular';
+}
+
+.s-logo {
+	width: 190px;
+}
+.l-logo {
+	padding-left: 10px;
+	padding-bottom: 10px;
+}
+.social img{
+	width: 35px;
+}
+.social a{
+	padding-right: 3px;
+}
+.header h1 {
+	font-family: 'UbuntuBold';
+	color: #fff;
+	padding-top: 5%;
+	padding-bottom: 5%;
+}
+.header-form h2 {
+	color: #a60436;
+	font-family: 'UbuntuMedium';
+	padding-bottom: 20px;
+}
+.main-form {
+	background-color: rgba(255,255,255,0.47);
+	padding-bottom: 30px;
+}
+.main-form input {
+	width: 80%;
+	padding: 10px;
+	border-radius: 5px;
+	border: none;
+	font-family: UbuntuRegular;
+}
+.main-btn {
+	background-color: #a60436;
+	border: none;
+	border-bottom: 3px solid #4d0219;
+	border-radius: 5px;
+	padding: 10px 25px;
+	color: white;
+	font-family: UbuntuRegular;
+}
+.main-btn:hover {
+	background-color: #d20444;
+	border-bottom: 1px solid #4d0219;
+	margin-top: 2px;
+}
+/*========================== ЯЙЦА ============================ */
+section#eggs {
+	padding-top: 2%;
+	margin-bottom: 1%;
+}
+.header-eggs h2 {
+	font-family: UbuntuBold;
+	color: #323232;
+}
+.uslugi{
+	margin-top: 3%;
+}
+.uslugi .col-md-2 img {
+	width: 120px;
+	padding-bottom: 6%;
+}
+.uslugi h4{
+	font-family: UbuntuRegular;
+	font-size: 14px;
+	color: #a60436;
+	white-space: nowrap;
+}
+hr {
+	background-color: #a60436;
+	height: 3px;
+}
+
+/*========================== PRICE ============================ */
+.header h2 {
+	margin-bottom: 3%;
+	font-family: UbuntuBold;
+}
+.description .des{
+	border: 4px solid #a60436;
+	border-radius: 5px;
+	padding-bottom: 10px;
+}
+.btn-price {
+	background-color: #a60436;
+	color: #fff;
+	border: none;
+	font-family: UbuntuRegular;
+	padding: 15px 35px;
+	border-radius: 5px;
+}
+
+.des img {
+	width: 100%;
+}
+.des h4 {
+	font-family: UbuntuBold;
+}
+.des li {
+	font-family: UbuntuMedium;
+}
+.des ul li {
+	list-style-image: url(../images/check.jpg) ;
+}
+/*========================== BooKING ============================ */
+.booking input {
+	width: 80%;
+	padding: 10px;
+	border: 1px solid #959595;
+	border-radius: 5px;
+	color: #a60436;
+	font-family: UbuntuBold;
+}
+.header-booking h3 {
+	font-family: UbuntuBold;
+	padding-bottom: 5px;
+}
+.booking {
+	margin-bottom: 30px;
+}
+/*======================= карусель слайдер ======================= */
+section#feedback {
+	padding-top: 50px;
+	padding-bottom: 50px;
+}
+.item {
+       
+    text-align: center;
+/*    height: 500px !important; */
+}
+.carousel{
+    margin-top: 20px;
+}
+.carousel-control.left {
+	background-image: none;
+}
+.carousel-control.right {
+	background-image: none;
+}
+.carousel-control {
+	color: #0a0a0a !important;
+}
+.carousel-control:hover {
+	color: #0a0a0a !important;
+}
+.carousel-control:active {
+	color: #0a0a0a !important;
+}
+.carousel-control:focus {
+	color: #0a0a0a !important;
+}
+
+
+.avatar {
+	width: 20%;
+	display: block;
+	margin: 0 auto;
+}
+.carousel-indicators li {
+	border: 1px solid #858585;
+	background-color: #858585;
+	box-shadow: 0 1px 2px rgba(0,0,0,0.6);
+}
+.carousel-indicators .active {
+	border: 1px solid black;
+	background-color: black;
+}
+.carousel-indicators {
+	top: 105%;
+}
+/*======================= Всплывающее окно ======================= */
+button.btn-send {
+	background-color: #a60436;
+	color: white;
+}
+
+/*========================== Адаптив ============================ */
+@media(min-width:0px) and (max-width:320px) {
+	.logo {
+	text-align: center;
+	}
+	.logo .s-logo {
+		width: 70px;
+	}
+	.social img {
+		width: 20px;
+	}
+	.logo-revizorro img {
+		width: 80px;
+		
+		padding-left: 10px;
+	}
+	.social {
+		padding-left: 13px;
+	}
+	.phone {
+		text-align: center;
+	}
+	h1 {
+		font-size: 22px;
+		text-transform: uppercase;
+	}
+	.header-form h2 {
+		font-size: 16px;
+		padding-bottom: 0px;
+	}
+	.main-form {
+		margin-left: 4px;
+	}
+	.main-form {
+		margin-right: 4px;
+	}
+	.main-form input {
+		margin-top: 5px;
+	}
+	.main-form button {
+		margin-top: 15px;
+	}
+	.main-form button:hover {
+		margin-top: 17px;
+	}
+	section#main {
+		height: 650px;
+	}
+	.header-eggs h2 {
+		font-size: 18px;
+	}
+	section#eggs img {
+		width: 60px;
+	}
+	section#eggs h4 {
+		font-size: 12px;
+	}
+	.header h2 {
+		font-size: 20px;
+		margin-top: 0px;
+		margin-bottom: 20px;
+	}
+	section#price .des {
+		margin-bottom: 5px;
+		border: 2px solid #a60436;
+		margin-left: 2px;
+		margin-right: 2px;
+	}
+	.header-booking h3 {
+		font-size: 20px;
+	}
+	.booking input {
+		margin-bottom: 2px;
+	}
+	.booking button {
+		margin-top: 5px;
+	}
+	.booking button:hover {
+		margin-top: 7px;
+	}
+}
+@media(min-width:321px) and (max-width:480px) {
+	.logo {
+	text-align: center;
+	}
+	.logo .s-logo {
+		width: 70px;
+	}
+	.social img {
+		width: 20px;
+	}
+	.logo-revizorro img {
+		width: 80px;
+		
+		padding-left: 10px;
+	}
+	.social {
+		padding-left: 13px;
+	}
+	.phone {
+		text-align: center;
+	}
+	h1 {
+		font-size: 22px;
+		text-transform: uppercase;
+	}
+	.header-form h2 {
+		font-size: 16px;
+		padding-bottom: 0px;
+	}
+	.main-form {
+		margin-left: 4px;
+	}
+	.main-form {
+		margin-right: 4px;
+	}
+	.main-form input {
+		margin-top: 5px;
+	}
+	.main-form button {
+		margin-top: 15px;
+	}
+	.main-form button:hover {
+		margin-top: 17px;
+	}
+	section#main {
+		height: 650px;
+	}
+	.header-eggs h2 {
+		font-size: 18px;
+	}
+	section#eggs img {
+		width: 60px;
+	}
+	section#eggs h4 {
+		font-size: 12px;
+	}
+	.header h2 {
+		font-size: 20px;
+		margin-top: 0px;
+		margin-bottom: 20px;
+	}
+	section#price .des {
+		margin-bottom: 5px;
+		border: 2px solid #a60436;
+		margin-left: 2px;
+		margin-right: 2px;
+	}
+	.header-booking h3 {
+		font-size: 20px;
+	}
+	.booking input {
+		margin-bottom: 2px;
+	}
+	.booking button {
+		margin-top: 5px;
+	}
+	.booking button:hover {
+		margin-top: 7px;
+	}
+}
+@media(min-width:481px) and (max-width:768px) {
+	.logo {
+	text-align: center;
+	}
+	.logo .s-logo {
+		width: 120px;
+	}
+	.social img {
+		width: 25px;
+	}
+	.logo-revizorro img {
+		width: 120px;
+		
+		padding-left: 10px;
+	}
+	.social {
+		padding-left: 13px;
+	}
+	.phone h3 {
+		text-align: center;
+		font-size: 18px;
+		margin-bottom: 5px;
+	}
+	.phone p {
+		text-align: center;
+		font-size: 14px;
+	}
+	h1 {
+		font-size: 26px;
+		text-transform: uppercase;
+	}
+	.header-form h2 {
+		font-size: 24px;
+		padding-bottom: 0px;
+	}
+	.main-form {
+		margin-left: 4px;
+	}
+	.main-form {
+		margin-right: 4px;
+	}
+	.main-form input {
+		margin-top: 5px;
+	}
+	.main-form button {
+		margin-top: 15px;
+	}
+	.main-form button:hover {
+		margin-top: 17px;
+	}
+	section#main {
+		height: 750px;
+	}
+	.header-eggs h2 {
+		font-size: 24px;
+	}
+	section#eggs img {
+		width: 80px;
+	}
+	section#eggs h4 {
+		font-size: 14px;
+	}
+	.header h2 {
+		font-size: 24px;
+		margin-top: 0px;
+		margin-bottom: 20px;
+	}
+	section#price .des {
+		margin-bottom: 5px;
+		border: 2px solid #a60436;
+		margin-left: 2px;
+		margin-right: 2px;
+	}
+	.header-booking h3 {
+		font-size: 24px;
+	}
+	.booking input {
+		margin-bottom: 2px;
+	}
+	.booking button {
+		margin-top: 5px;
+	}
+	.booking button:hover {
+		margin-top: 7px;
+	}
+}
+@media(min-width:769px) and (max-width:992px) {
+	
+	section#main {
+		height: 650px;
+	}
+	.logo {
+	text-align: center;
+	}
+	.logo .s-logo {
+		width: 150px;
+	}
+	.social img {
+		width: 25px;
+	}
+	.logo-revizorro img {
+		width: 150px;
+		padding-left: 10px;
+	}
+	.social {
+		padding-left: 13px;
+	}
+	.phone h3 {
+		text-align: center;
+		font-size: 18px;
+		margin-bottom: 5px;
+	}
+	.phone p {
+		text-align: center;
+		font-size: 14px;
+	}
+	h1 {
+		font-size: 26px;
+		text-transform: uppercase;
+	}
+	.header-form h2 {
+		font-size: 24px;
+		padding-bottom: 0px;
+	}
+	.main-form {
+		margin-left: 4px;
+	}
+	.main-form {
+		margin-right: 4px;
+	}
+	.main-form input {
+		margin-bottom: 5px;
+	}
+	.main-form button:hover {
+		margin-top: 2px;
+	}
+	.header-eggs h2 {
+		font-size: 24px;
+	}
+	section#eggs img {
+		width: 80px;
+	}
+	section#eggs h4 {
+		font-size: 12px;
+	}
+	.header h2 {
+		font-size: 24px;
+		margin-top: 0px;
+		margin-bottom: 20px;
+	}
+	section#price .des {
+		margin-bottom: 5px;
+		border: 2px solid #a60436;
+		margin-left: 2px;
+		margin-right: 2px;
+	}
+	.header-booking h3 {
+		font-size: 24px;
+	}
+	.booking input {
+		margin-bottom: 2px;
+	}
+	.booking button {
+		margin-top: 5px;
+	}
+	.booking button:hover {
+		margin-top: 7px;
+	}
+	.des button {
+		padding: 15px 20px;
+	}
+}
+@media(min-width:993px) and (max-width:1200px) {
+	
+	section#main {
+		height: 650px;
+	}
+	.logo {
+	text-align: center;
+	}
+	.logo .s-logo {
+		width: 150px;
+	}
+	.social img {
+		width: 30px;
+	}
+	.logo-revizorro img {
+		width: 150px;
+		padding-left: 10px;
+	}
+	.social {
+		padding-left: 13px;
+	}
+	.phone h3 {
+		text-align: center;
+		font-size: 18px;
+		margin-bottom: 5px;
+	}
+	.phone p {
+		text-align: center;
+		font-size: 14px;
+	}
+	h1 {
+		font-size: 26px;
+		text-transform: uppercase;
+	}
+	.header-form h2 {
+		font-size: 24px;
+		padding-bottom: 0px;
+	}
+	.main-form {
+		margin-left: 4px;
+	}
+	.main-form {
+		margin-right: 4px;
+	}
+	.main-form input {
+		margin-bottom: 5px;
+	}
+	.main-form button:hover {
+		margin-top: 2px;
+	}
+	.header-eggs h2 {
+		font-size: 24px;
+	}
+	section#eggs img {
+		width: 80px;
+	}
+	section#eggs h4 {
+		font-size: 12px;
+	}
+	.header h2 {
+		font-size: 24px;
+		margin-top: 0px;
+		margin-bottom: 20px;
+	}
+	section#price .des {
+		margin-bottom: 5px;
+		border: 2px solid #a60436;
+		margin-left: 2px;
+		margin-right: 2px;
+	}
+	.header-booking h3 {
+		font-size: 24px;
+	}
+	.booking input {
+		margin-bottom: 2px;
+	}
+	.booking button {
+		margin-top: 5px;
+	}
+	.booking button:hover {
+		margin-top: 7px;
+	}
+	.des button {
+		padding: 15px 20px;
+	}
+}
+
