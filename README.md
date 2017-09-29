@@ -3,7 +3,7 @@
 # Алексей Сайгушев
 Мои домашние задания!
 
-
+[Урок 6.1](Lam1ro4eQ.github.io/lesson_6.1 "Жмяк") , [Урок 6.2](Lam1ro4eQ.github.io/lesson_6.2 "Жмяк") - Позиционирование
 
 [Урок 7](Lam1ro4eQ.github.io/lesson_7 "Жмяк") - Верстка css+html
 
