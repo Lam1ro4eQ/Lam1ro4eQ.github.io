@@ -3,6 +3,10 @@
 # Алексей Сайгушев
 Мои домашние задания!
 
+[Урок 4](Lam1ro4eQ.github.io/lesson_4 "Жмяк") - Сверстанная на html книжка
+
+[Урок 5](Lam1ro4eQ.github.io/lesson_5 "Жмяк") - Сверстанная на html+css книжка
+
 [Урок 6.1](Lam1ro4eQ.github.io/lesson_6.1 "Жмяк") , [Урок 6.2](Lam1ro4eQ.github.io/lesson_6.2 "Жмяк") - Позиционирование
 
 [Урок 7](Lam1ro4eQ.github.io/lesson_7 "Жмяк") - Верстка css+html
