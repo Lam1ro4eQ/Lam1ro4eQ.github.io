@@ -1,0 +1,26 @@
+body {
+  background: #FFF7B2;
+}
+h1, h2, h3, h4, h5 {
+  text-align: center;
+  color: #2C2415;
+  text-transform: uppercase;
+}
+.border {
+  border: 3px solid #363442;
+  border-left: none;
+  padding: 5px 8px 8px 0;
+}
+.color-bg {
+  background: #fff;
+  padding: 5px 0 8px 0;
+}
+p#ital {
+  font-style: italic; 
+}
+p#under {
+  text-decoration: underline;
+}
+p#bold {
+  font-weight: bold;
+}
