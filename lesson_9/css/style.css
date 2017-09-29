@@ -1,0 +1,98 @@
+
+body {
+	font-family: Tahoma, sans-serif;
+	color: #333333;
+	line-height: 1.5;
+}
+
+#content .header {
+	text-align: center;
+	font-size: 24px;
+	margin-bottom: 80px;
+}
+#content .header span {
+	display: block;
+	font-weight: 300;
+	margin-top: 100px;
+	margin-bottom: 20px;
+}
+.header strong {
+	font-weight: 900;
+	text-transform: uppercase;
+}
+.main {
+	margin-top: 80px;
+	text-align: center;
+}
+.video, .form {
+	display: inline-block;
+	vertical-align: top;
+}
+.form {
+	text-align: center;
+	border: 5px solid #0048d6;
+	padding: 35px;
+	font-weight: 900;
+}
+.form input {
+	display: block;
+	width: 295px;
+	padding: 13px;
+	margin-bottom: 10px;
+	border: 1px solid #999999;
+	width: 350px;
+	font-size: 18px;
+}
+.form p {
+	font-size: 20px;
+	color: #333333;
+	font-weight: 900;
+	margin-bottom: 40px;
+
+}
+.form .form-btn {
+	font-size: 18px;
+	border: none;
+	color: #fff;
+	background: #195ada;
+	padding: 19px 35px 21px 35px;
+	width: 350px;
+}
+.col {
+	margin-top: 80px;
+}
+#advantages .feature_header {
+	text-align: center;
+	font-size: 24px;
+	font-weight: 900;
+	text-transform: uppercase;
+	margin-top: 90px;
+}
+#advantages p {
+	margin-top: 10px;
+	font-size: 16px;
+	font-weight: 900;
+}
+#advantages .feature_btn {
+	font-size: 18px;
+	border: none;
+	color: #fff;
+	background: #195ada;
+	padding: 19px 35px 21px 35px;
+	width: 300px;
+	display: block;
+	margin: 90px auto 90px auto;
+}
+#customers .client_header {
+	text-align: center;
+	font-size: 24px;
+	font-weight: 900;
+	text-transform: uppercase;
+	margin-bottom: 80px;
+}
+#customers img {
+	margin-bottom: 35px;
+}
+#customers .photo_footer {
+	margin-bottom: 105px;
+}
