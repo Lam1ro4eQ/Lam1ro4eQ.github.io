@@ -1,0 +1,20 @@
+body {
+  margin-left: 0;
+}
+.nav-bar {
+  position: fixed;
+  background: #000;
+  width: 100%;
+  text-align: center;
+  top: 0;
+}
+a {
+  color: #fff;
+  display: inline-block;
+}
+h3 {
+   margin-left: 100px;
+}
+p {
+  margin-top: 80px;
+}
