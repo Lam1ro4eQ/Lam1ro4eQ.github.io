@@ -1,0 +1,82 @@
+.bg {
+  background: url(../img/bg.jpg) no-repeat;
+  width: 570px;
+  height: 570px;
+  margin: 0 auto;
+  margin-top: 100px;
+  position: relative;
+}
+h2 {
+  position: absolute;
+  top: 97px;
+  left: 155px;
+  width: 148px;
+  height: 25px;
+  margin: 0;
+  padding: 7px;
+  color: #fff;
+  padding: 6px 6px 7px 9px;
+  background: #01b3b3;
+  font-size: 12px;
+  text-transform: uppercase;
+  font-weight: 600;
+  z-index: 2;
+  font-family: arial;
+}
+form {
+  position: relative;
+  background: #fff;
+  width: 320px;
+  height: 370px;
+  border: 1px solid #cfdede;
+  margin: 0 auto;
+  top: 100px;
+}
+label {
+  font-size: 12px;
+  font-weight: 600;
+  color: #333333;
+  margin-left: 29px;
+  margin-top: 14px;
+}
+label[for="inputEmail"] {
+  margin-top: 51px;
+}
+label[for="ConfimPassword"] {
+  margin-top: 17px;
+}
+input#ChoosePassword {
+  position: relative;
+  top: 2px;
+}
+input.form-control {
+  font-style: italic;
+  width: 262px;
+  height: 32px;
+  margin: 0 auto;
+  background: url(../img/bg.jpg) no-repeat;
+  border-radius: 0;
+  margin-top: 5px;
+  font-size: 12px;
+  padding-top: 5px;
+  border: 0.5px solid #cfdede;
+}
+span {
+  color: #01b3b3;
+}
+button {
+  display: block;
+  width: 260px;
+  height: 45px;
+  background-color: #01b3b3;
+  border: none;
+  margin: 0 auto;
+  margin-top: 34px;
+  border-top: 2px solid #41d4d4;
+  border-radius: 2px;
+  text-transform: uppercase;
+  color: #fff;
+  font-weight: 600;
+  font-size: 16px;
+  padding-bottom: 2px;
+}
