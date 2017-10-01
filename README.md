@@ -19,4 +19,4 @@
 
 [Урок 12](Lam1ro4eQ.github.io/lesson_12 "Жмяк") - Создание репозитория GitHub 
 
-[Урок 13](Lam1ro4eQ.github.io/lesson_12 "Жмяк") - Верстка PrfectPixel 
+[Урок 13](Lam1ro4eQ.github.io/lesson_13 "Жмяк") - Верстка PrfectPixel 
