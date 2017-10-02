@@ -1,0 +1,28 @@
+.header {
+  padding-top: 20px;
+}
+.header a {
+  color: #292929;
+  font-size: 18px;
+  font-weight: 900;
+  line-height: 70px;
+  display: inline-block;
+}
+.header .wrap {
+  display: table;
+  width: 100%;
+  height: 70px;
+}
+.header .wrap-block {
+  display: table-cell;
+  vertical-align: middle;
+}
+.header button.btn_cons {
+  background-color: #fab102;
+  padding: 10px 20px;
+  text-transform: uppercase;
+  color: #fff;
+  border: none;
+  border-radius: 7px;
+  font-size: 10px;
+}
