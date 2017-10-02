@@ -1,0 +1,36 @@
+@font-face {
+    font-family: 'BebasNeueRegular';
+    src: url('../fonts/BebasNeueRegular.eot');
+    src: url('../fonts/BebasNeueRegular.eot') format('embedded-opentype'),
+         url('../fonts/BebasNeueRegular.woff2') format('woff2'),
+         url('../fonts/BebasNeueRegular.woff') format('woff'),
+         url('../fonts/BebasNeueRegular.ttf') format('truetype'),
+         url('../fonts/BebasNeueRegular.svg#BebasNeueRegular') format('svg');
+}
+.text-box{
+	padding-top: 2rem;
+}
+.result {
+	margin-bottom: 0;
+	margin-top: 3rem;
+}
+.fonts {
+	font-size: 2rem;
+	text-align: center;
+	padding: 2rem;
+}
+small {
+	font-size: 1.3rem;
+}
+.lob {
+	font-family: 'Lobster', cursive, sans-serif;
+}
+.lat {
+	font-family: 'Lato', sans-serif;
+}
+.beb {
+	font-family: 'BebasNeueRegular', sans-serif;
+}
+.os {
+	font-family: 'Open Sans', sans-serif;
+}
