@@ -21,4 +21,4 @@
 
 [Урок 13](Lam1ro4eQ.github.io/lesson_13 "Жмяк") - Верстка PrfectPixel 
 
-[Урок 14](Lam1ro4eQ.github.io/lesson_14 "Жмяк") - Практика. Верстка Шапки 
+[Урок 14](Lam1ro4eQ.github.io/lesson_14 "Жмяк") - Практика. Верстка Шапки , [Урок 14.1](Lam1ro4eQ.github.io/lesson_14.1 "Жмяк") - Подключаем шрифты
