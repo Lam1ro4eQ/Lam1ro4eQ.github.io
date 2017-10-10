@@ -35,6 +35,8 @@
 
 [Урок 17](Lam1ro4eQ.github.io/lesson_17 "Жмяк") - Всплывающие окна   
 
-[Практика 5](Lam1ro4eQ.github.io/practica_5 "Жмяк") - Верстка всплывающих окон на сайте
+[Практика 5](Lam1ro4eQ.github.io/practica_5 "Жмяк") - Верстка всплывающих окон на сайте  
 
 [Урок 18.1](Lam1ro4eQ.github.io/lesson_18.1 "Жмяк") - Табы [Урок 18.2](Lam1ro4eQ.github.io/lesson_18.2 "Жмяк") - Aккордеон
+
+[Практика 6](Lam1ro4eQ.github.io/practica_6 "Жмяк") - Верстка блока с ценами
