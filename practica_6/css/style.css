@@ -221,6 +221,7 @@ section.features .next {
   outline: none;
 }
 section.prices {
+  padding-bottom: 100px;
   background: #00c939 url(../img/prices-bg.jpg) repeat center;
 }
 section.prices h2 {
