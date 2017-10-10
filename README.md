@@ -37,4 +37,4 @@
 
 [Практика 5](Lam1ro4eQ.github.io/practica_5 "Жмяк") - Верстка всплывающих окон на сайте
 
-[Урок 18](Lam1ro4eQ.github.io/lesson_18 "Жмяк") - Табы и аккордеон на сайте
+[Урок 18.1](Lam1ro4eQ.github.io/lesson_18.1 "Жмяк") - Табы [Урок 18.2](Lam1ro4eQ.github.io/lesson_18.2 "Жмяк") - Aккордеон
