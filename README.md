@@ -42,3 +42,5 @@
 [Практика 6](Lam1ro4eQ.github.io/practica_6 "Жмяк") - Верстка блока с ценами
 
 [Урок 19](Lam1ro4eQ.github.io/lesson_19 "Жмяк") - Анимация на CSS3
+
+[Практика 7](Lam1ro4eQ.github.io/practica_7 "Жмяк") - Верстка блока с отзывами
