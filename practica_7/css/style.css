@@ -331,6 +331,13 @@ section.feedback {
   background: url(../img/feedback/feedback-bg.jpg) no-repeat center;
   background-size: cover;
 }
+section.feedback .section-header {
+  margin-top: 40px;
+  text-align: center;
+  font-family: 'ProximaNovaBold', sans-serif;
+  font-size: 35px;
+  margin-bottom: 40px;
+}
 section.feedback .feedback-slider_btn {
   position: absolute;
   top: 50%;
