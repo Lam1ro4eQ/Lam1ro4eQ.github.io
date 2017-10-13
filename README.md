@@ -48,3 +48,5 @@
 [Урок 20](Lam1ro4eQ.github.io/lesson_20 "Жмяк") - Видео-фон на сайте
 
 [Практика 8](Lam1ro4eQ.github.io/practica_8 "Жмяк") - Доверстали блок с отзывами
+
+[Урок 21](Lam1ro4eQ.github.io/lesson_21 "Жмяк") - Parallax эффект для сайта
