@@ -50,3 +50,5 @@
 [Практика 8](Lam1ro4eQ.github.io/practica_8 "Жмяк") - Доверстали блок с отзывами
 
 [Урок 21](Lam1ro4eQ.github.io/lesson_21 "Жмяк") - Parallax эффект для сайта
+
+[Практика 9](Lam1ro4eQ.github.io/practica_9 "Жмяк") - Верстаем схему работы и все включено
