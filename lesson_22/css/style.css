@@ -1,0 +1,57 @@
+section.red {
+  position: absolute;
+  top: 0;
+  text-align: center;
+  padding: 45px 10px;
+  left: 200px;
+  width: 380px;
+  height: 430px;
+  background-color: #c60b0b;
+}
+section.red h3 {
+  color: #ffffff;
+  font-size: 28px;
+}
+section.red p {
+  color: #ffffff;
+  font-size: 16px;
+  margin: 30px 0;
+}
+section.red a {
+  color: #ffffff;
+  font-size: 16px;
+}
+section.footer {
+  padding-top: 20px;
+  padding-bottom: 20px;
+}
+section.footer img {
+  display: inline-block;
+  vertical-align: baseline;
+  margin-right: 10px;
+}
+section.footer p {
+  display: inline-block;
+}
+section.footer .center {
+  font-family: OpenSans;
+  color: #666666;
+  text-align: center;
+  font-size: 15px;
+  font-weight: 400;
+  text-align: left;
+}
+section.footer .phone {
+  color: #000000;
+  font-size: 14px;
+  text-align: right;
+}
+section.footer .phone span {
+  font-weight: 600;
+  font-size: 22px;
+}
+section.footer .logo {
+  color: #000000;
+  font-size: 16px;
+  text-align: left;
+}

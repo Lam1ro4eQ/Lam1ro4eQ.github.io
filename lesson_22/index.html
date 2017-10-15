@@ -1,0 +1,96 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>Document</title>
+	<script src="https://api-maps.yandex.ru/2.1/?lang=ru_RU" type="text/javascript">
+  </script>
+   <link rel="stylesheet" href="css/bootstrap.min.css">
+   <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+	<section class="maps">
+		<div id="map" style="width: 100%; height: 430px"></div>
+	</section>
+	<section class="footer">
+		<div class="container">
+			<div class="row">
+				<div class="col-md-4">
+					<img src="img/logo.png" alt="">
+					<p class="logo">Технологии <br> Пожарной <br> Безопасности</p>
+				</div>
+				<div class="col-md-4">
+					<p class="center">
+						Сертификация пожарной безопастности <br>
+						Работаем по России и странам СНГ
+					</p>
+				</div>
+				<div class="col-md-4 text-right">
+					<p class="phone"> <span>+7 (499) 409-87-25</span> <br> г. Москва, Варшавское шоссе, <br> дом 16, корпус 1, офис №8</p>
+				</div>
+			</div>
+		</div>
+	</section>
+	<section class="red">
+		<h3>Контанкты</h3>
+		<p>г.Москва <br> Варшавское шоссе, дом 16, <br> корпус 1, офис №8</p>
+		<p>200 от м. Театральная</p>
+		<p>+7 (499) 409-87-25</p>
+		<a href="#">info@vashsite.ru</a>
+	</section>
+	<script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
+	<script type="text/javascript">
+  ymaps.ready(function () {
+    var myMap = new ymaps.Map('map', {
+            center: [55.69327049, 37.61784716],
+            zoom: 16,
+            controls: []
+        }, {
+            searchControlProvider: 'yandex#search'
+        }),
+
+   
+        // Создаём макет содержимого.
+        MyIconContentLayout = ymaps.templateLayoutFactory.createClass(
+            '<div style="color: #FFFFFF; font-weight: bold;">$[properties.iconContent]</div>'
+        ),
+
+        myPlacemark = new ymaps.Placemark(myMap.getCenter(), {
+            hintContent: 'Собственный значок метки',
+            balloonContent: 'Это красивая метка'
+        }, {
+            // Опции.
+            // Необходимо указать данный тип макета.
+            iconLayout: 'default#image',
+            // Своё изображение иконки метки.
+            iconImageHref: 'img/maps-and-flags.png',
+            // Размеры метки.
+            iconImageSize: [24, 24],
+
+            // Смещение левого верхнего угла иконки относительно
+            // её "ножки" (точки привязки).
+            iconImageOffset: [-12, -24]
+        });
+
+         myMap.behaviors
+        // Отключаем часть включенных по умолчанию поведений:
+        //  - drag - перемещение карты при нажатой левой кнопки мыши;
+        //  - magnifier.rightButton - увеличение области, выделенной правой кнопкой мыши.
+        .disable(['rightMouseButtonMagnifier'])
+       		myMap.behaviors.disable('scrollZoom')
+
+			    // Изменяем свойство поведения с помощью опции:
+			    // изменение масштаба колесом прокрутки будет происходить медленно,
+			    // на 1/2 уровня масштабирования в секунду.
+			    myMap.options.set('scrollZoomSpeed', 0.5);
+
+    
+          myMap.geoObjects
+        .add(myPlacemark)
+        .add(myPlacemarkWithContent);
+		});
+
+	</script>
+	<script src="js/bootstrap.min.js"></script>
+</body> 
+</html>
