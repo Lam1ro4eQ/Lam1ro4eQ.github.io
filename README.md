@@ -52,3 +52,5 @@
 [Урок 21](Lam1ro4eQ.github.io/lesson_21 "Жмяк") - Parallax эффект для сайта
 
 [Практика 9](Lam1ro4eQ.github.io/practica_9 "Жмяк") - Верстаем схему работы и все включено
+
+[Урок 22](Lam1ro4eQ.github.io/lesson_22 "Жмяк") - Гео-карты для сайта
